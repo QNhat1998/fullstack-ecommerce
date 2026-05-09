@@ -44,7 +44,7 @@ const eslintConfig = defineConfig([
     rules: {
       // Prettier integration
       "prettier/prettier": "error",
-      
+
       // TypeScript rules
       "@typescript-eslint/no-unused-vars": [
         "error",
@@ -54,11 +54,11 @@ const eslintConfig = defineConfig([
         },
       ],
       "@typescript-eslint/no-explicit-any": "warn",
-      
+
       // React Hooks rules
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
-      
+
       // Import rules
       "import/order": [
         "error",
